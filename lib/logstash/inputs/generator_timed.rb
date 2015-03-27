@@ -10,7 +10,7 @@ require "socket" # for Socket.gethostname
 # An event is generated first
 class LogStash::Inputs::GeneratorTimed < LogStash::Inputs::Threadable
   config_name "generator_timed"
-  milestone 3
+  milestone 1
 
   default :codec, "plain"
 
